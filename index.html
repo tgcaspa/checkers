@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Hershkovitz Dmitri | Checkers</title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+    <script src="JavaScript.js"></script>
+</head>
+<body>
+    <section id="panel">
+        <section id="tBorderOut">
+            <section id="tBorderIn">
+                <table> </table>
+            </section>
+        </section>
+
+        <section id="menu">
+            <form>
+                <h1>Enter your name<br /> before starting the game</h1>
+                <input type="text" placeholder="Name" />
+                <h1>Choose the color of your checkers</h1>
+                <div class="checker mePlayer"></div>
+                <div class="checker compPlayer"></div>
+            </form>
+            <p class="player">
+                Score
+                <br />
+                <span> </span><br />
+            </p>
+            <p class="timer"> </p>
+            <section id="btnsPanel">
+                <div id="btnStart" class="button">Start Game</div>
+                <div id="btnGiveUp" class="button">Give Up</div>
+            </section>
+        </section>
+    </section>
+
+    <!--dialog menus-->
+    <div id="dialog" title="You are loose"> </div>
+</body>
+</html>

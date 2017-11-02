@@ -1,1 +1,1 @@
-# checkers
+# checkers-game
