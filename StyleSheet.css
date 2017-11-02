@@ -51,10 +51,8 @@ table{
     border-collapse:collapse;
     border:1px solid darkgray;
 }
-tr:nth-of-type(odd),
-td:nth-of-type(even),
-tr:nth-of-type(even),
-td:nth-of-type(odd){
+tr:nth-of-type(odd) td:nth-of-type(even),
+tr:nth-of-type(even) td:nth-of-type(odd){
     background-color:#2f2525; /*black*/
 }
 
